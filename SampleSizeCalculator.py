@@ -1,3 +1,7 @@
+## Strategy: For a bunch of Ns, compute the z_star by achieving desired alpha, 
+## then compute what beta would be for that N using the acquired z_star. 
+## Pick the smallest N at which beta crosses the desired value
+
 # Load the required packages
 from scipy import stats
 import math

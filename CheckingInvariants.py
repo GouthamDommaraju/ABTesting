@@ -1,7 +1,7 @@
 # Let's say you ran the experiment and landed up with
 # Count of events in control group as 15348 and
 # Count of events in test group as 15312 and
-# Say event count is an invariate in your experiment as you used Event as your unit of diversion.
+# Say event count is an invariant in your experiment as you used Event as your unit of diversion.
 
 # Is it ok to get these numbers given that the probability of assigning a event to either a test or a control group is 0.5?
 # We are going to use hypothesis testing to answer that.

@@ -21,9 +21,9 @@ pCont = eventCont/eventTot
 # Ideal proportion in control | Given an event being assigned to control or test is random
 p = 0.5
 
-SE = math.sqrt(p*(1-p)/eventTot) # Calculate standard error # Binomial approximated to Normal because of huge sample size
+StandardE = math.sqrt(p*(1-p)/eventTot) # Calculate standard error # Binomial approximated to Normal because of huge sample size
 
-m = SE*-stats.norm.ppf(0.05/2) # Margin of Error considering alpha to be 5%
+m = StandardE*-stats.norm.ppf(0.05/2) # Margin of Error considering alpha to be 5%
 LeftCI = p - m # Left Confidence Interval
 RightCI = p + m # Right Confidence Interval
 

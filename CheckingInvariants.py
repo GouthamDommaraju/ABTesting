@@ -27,7 +27,7 @@ m = StandardE*-stats.norm.ppf(0.05/2) # Margin of Error considering alpha to be 
 LeftCI = p - m # Left Confidence Interval
 RightCI = p + m # Right Confidence Interval
 
-if LCI <= pCont <= RCI:
+if LeftCI <= pCont <= RightCI:
     print ('Sample size of control is Good.')
 else:
     print ('Sample size of control is Bad, Check the way the experiment was run.')

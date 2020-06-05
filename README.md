@@ -13,7 +13,7 @@ It helps you gain insight on wether the experiment ran as expected by checking t
   * Invariant: Event Count
 
 # WelchTTest.py 
-It helps you perform a student's t test to understand if the control and experiment groups are significantly different for the point estimate of the considered metric
+It helps you perform a student's t test to understand if the control and experiment groups are significantly different for the point estimate of the considered metric <br>
 It is preferred when the control and the experiment groups
 * are of equal or unequal sample sizes
 * have unequal variances 

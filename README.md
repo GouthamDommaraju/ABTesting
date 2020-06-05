@@ -11,3 +11,6 @@ It helps you gain insight on wether the experiment ran as expected by checking t
   * Unit of diversion used is Event
   * Unit of analysis used is Event
   * Invariant: Event Count
+
+# WelchTTest.py 
+It helps you perform a student's t test on equal or unequal sample sizes and unequal variances to understand if the control and experiment groups are significantly different for the point estimate of the considered metric
